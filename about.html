@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" />
+    <title>MEARTH</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="free-shipping-for">
+            <p class="free-p">Free Shipping for all Order of $99</p>
+        </div>
+        <div class="header">
+            <!-- <div class="frame-child"></div> -->
+            <div class="logo">
+                <img class="frame-item" alt="" src="./public/ellipse-1@2x.png" />
+                <b class="mearth">MEARTH</b>
+            </div>
+
+            <div class="center">
+                <div class="search">
+                    <input class="product-search" type="search..." placeholder="search..." />
+                    <button class="search-icon"><img src="./public/search.svg" alt=""></button>
+                </div>
+                <div class="menu">
+                    <div class="home" onclick="loadPage('index.html', this)">
+                        Home
+                    </div>
+                    <div class="shop" onclick="loadPage('shop.html', this)">Shop</div>
+                    <div class="about-us selected" onclick="loadPage('about.html', this)">
+                        About Us
+                    </div>
+                </div>
+            </div>
+            <div class="last">
+                <div class="signin">
+                    <div class="sign-in">SIGN IN / SIGN UP</div>
+                </div>
+                <div class="cart">
+                    <img class="emoji-white-heart" alt="" src="./public/heart.svg" />
+                    <div>
+                        <div class="cart-count">0</div>
+                        <img class="icon-shopping-cart" alt="" src="./public/-icon-shopping-cart@2x.png" />
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="frame-inner"></div>
+        <div class="rectangle-div"></div>
+        <div class="frame-child1"></div> -->
+            <!-- <div class="search">Search...</div> -->
+            <!-- <img class="vector-icon" alt="" src="./public/vector@2x.png" /> -->
+        </div>
+        <div>
+            <img class="room" alt="modern room" src="./public/room.svg" />
+        </div>
+        <div class="peeps">
+            <h1>Making Commerce Better For You Peeps</h1>
+            <p>
+                We are people achieve indepedence by making it easier to start, run,
+                and grow a bussiness. We believe the future of commerce has more
+                voices, not fewer, so we're reducing the barriers to business
+                ownership make commerce better for everyone.
+            </p>
+        </div>
+        <div class="mearth-about">
+            <div class="mearth-info">
+                <h1>MEARTH</h1>
+                <p>
+                    Mearth is an online shop that provides various kinds of goods such
+                    as clothes, trousers/skirts, bags, shoes and accessories. All
+                    products in the Mearth shop are ready stock, all products before
+                    being sent will definitely go through quality control and free
+                    bubble wrap for consumer safety and comfort.
+                    <br />
+                    <br />
+                    Operational hour
+                    <br />
+                    10.00 - 20.00
+                    <br />
+                    <br />
+                    WIBShops are closed on public holidays and National Days Happy
+                    shopping, we hope you are satisfied with our products
+                    <br /><br />
+                    Continue to support Mearth.
+                </p>
+            </div>
+            <img width="max" src="./public/about-mearth.png" alt="" />
+        </div>
+        <div class="testimonials">
+            <h1>TESTIMONIALS</h1>
+            <div id="about-list"></div>
+        </div>
+        <div class="footer">
+            <div class="signmeup">
+                <div class="signuplink">
+                    <input class="email-address" type="sign me up" placeholder="Email Adrress..." />
+            <button onclick="sigunUp(this)">Sign Me Up</button>
+                </div>
+            </div>
+            <div class="social-media">
+                <img src="./public/insta.svg" alt="insta" class="insta" />
+                <img src="./public/fb.svg" alt="fb" class="fb" />
+                <img src="./public/twit.svg" alt="twit" class="twit" />
+            </div>
+            <div class="hsn">
+                <div class="address">
+                    <span>Come Say Helllo !</span>
+                    <p>Jl. Tungturunan Tugu Kuda Kosong No. 007 Des. Hegarmanah</p>
+                </div>
+                <div class="shop-category">
+                    <span>Shop</span>
+                    <ul class="home-shop-contact">
+                        <li>
+                            <a href="" target="_blank" rel="noopener noreferrer">Fashion</a>
+                        </li>
+                        <li>
+                            <a href="" target="_blank" rel="noopener noreferrer">Bag</a>
+                        </li>
+                        <li>
+                            <a href="" target="_blank" rel="noopener noreferrer">Shoes</a>
+                        </li>
+                        <li>
+                            <a href="" target="_blank" rel="noopener noreferrer">Accessories</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="navigate">
+                    <span>Navigate</span>
+                    <ul class="home-shop-contact">
+                        <li onclick="loadPage('index.html', this)">Home</li>
+                        <li onclick="loadPage('shop.html', this)">Shop</li>
+                        <li onclick="loadPage('about.html', this)">About us</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="div6">
+                <span>(+62) 863 0407 1872</span>
+            </div>
+            <div class="contact">
+                <button class="contact-button">
+                    <a href="https://wa.me/+6286304071872" target="_blank" rel="noopener noreferrer"><img alt="conatct"
+                            src="./public/send.svg" /></a>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./about.js"></script>
+    <script src="./load.js"></script>
+
+</body>
+
+</html>

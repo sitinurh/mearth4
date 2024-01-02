@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+  <link rel="stylesheet" href="./global.css" />
+  <link rel="stylesheet" href="./index.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" />
+    <title>MEARTH</title>
+</head>
+
+<body>
+  <div class="main">
+    <div class="free-shipping-for">
+      <p class="free-p">Free Shipping for all Order of $99</p>
+    </div>
+    <div class="header">
+      <!-- <div class="frame-child"></div> -->
+      <div class="logo">
+        <img class="frame-item" alt="" src="./public/ellipse-1@2x.png" />
+        <b class="mearth">MEARTH</b>
+      </div>
+
+      <div class="center">
+        <div class="search">
+          <input class="product-search" type="search..." placeholder="search..." />
+          <button class="search-icon"><img src="./public/search.svg" alt=""></button>
+        </div>
+        <div class="menu">
+          <div class="home selected" onclick="loadPage('index.html', this)">Home</div>
+          <div class="shop" onclick="loadPage('shop.html', this)">Shop</div>
+          <div class="about-us" onclick="loadPage('about.html', this)">About Us</div>
+        </div>
+      </div>
+      <div class="last">
+        <div class="signin">
+          <div class="sign-in">SIGN IN / SIGN UP</div>
+        </div>
+        <div class="cart">
+          <img class="emoji-white-heart" alt="" src="./public/heart.svg" />
+          <div>
+            <div class="cart-count">0</div>
+            <img class="icon-shopping-cart" alt="" src="./public/-icon-shopping-cart@2x.png" />
+          </div>
+        </div>
+      </div>
+
+      <!-- <div class="frame-inner"></div>
+        <div class="rectangle-div"></div>
+        <div class="frame-child1"></div> -->
+      <!-- <div class="search">Search...</div> -->
+      <!-- <img class="vector-icon" alt="" src="./public/vector@2x.png" /> -->
+
+
+    </div>
+    <div>
+      <img class="room" alt="modern room" src="./public/room.svg" />
+    </div>
+    <div class="service">
+      <div class="dqr">
+        <div class="delivery">
+          <img class="rectangle-icon" alt="" src="./public/scooter.svg" />
+          <div class="content">
+            <div class="free-home-delivery">Free Home Delivery</div>
+            <p class="for-all-product">Free home delivery for all product over $100</p>
+          </div>
+        </div>
+
+        <div class="quality">
+          <img class="rectangle-icon" alt="" src="./public/quality.svg" />
+          <div class="content">
+
+            <div class="quality-product">Quality Product</div>
+            <p class="for-all-product">We ounture our productquality all times</p>
+          </div>
+        </div>
+        <div class="return">
+          <img class="rectangle-icon" alt="" src="./public/return.svg" />
+          <div class="content">
+
+            <div class="day-return">5 Day Return</div>
+            <p class="for-all-product">Our product return policy is very simple & easy</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="mearth-card">
+        <img class="frame-child5" alt="" src="./public/rectangle-8@2x.png" />
+
+        <img class="frame-child6" alt="" src="./public/rectangle-9@2x.png" />
+
+        <img class="frame-child7" alt="" src="./public/rectangle-10@2x.png" />
+      </div>
+    </div>
+    <div>
+      <div class="featured-products">
+        <h3>Featured Products</h3>
+        <p class="for-all-product">Product and supply variours itemall ever</p>
+        <p class="for-all-product">the world which were very atractive</p>
+      </div>
+      <div id="product-list"></div>
+    </div>
+
+    <div class="footer">
+      <div class="signmeup">
+        <div class="signuplink">
+          <input class="email-address" type="sign me up" placeholder="Email Adrress..." />
+            <button onclick="sigunUp(this)">Sign Me Up</button>
+        </div>
+      </div>
+      <div class="social-media">
+        <img src="./public/insta.svg" alt="insta" class="insta">
+        <img src="./public/fb.svg" alt="fb" class="fb">
+        <img src="./public/twit.svg" alt="twit" class="twit">
+      </div>
+      <div class="hsn">
+        <div class="address">
+          <span>Come Say Helllo !</span>
+          <p>
+            Jl. Tungturunan Tugu Kuda Kosong No. 007 Des. Hegarmanah
+          </p>
+        </div>
+        <div class="shop-category">
+          <span>Shop</span>
+          <ul class="home-shop-contact">
+            <li><a href="" target="_blank" rel="noopener noreferrer">Fashion</a></li>
+            <li><a href="" target="_blank" rel="noopener noreferrer">Bag</a></li>
+            <li><a href="" target="_blank" rel="noopener noreferrer">Shoes</a></li>
+            <li><a href="" target="_blank" rel="noopener noreferrer">Accessories</a></li>
+          </ul>
+        </div>
+        <div class="navigate">
+          <span>Navigate</span>
+          <ul class="home-shop-contact">
+            <li onclick="loadPage('index.html', this)">Home</li>
+            <li onclick="loadPage('shop.html', this)">Shop</li>
+            <li onclick="loadPage('about.html', this)">About us</li>
+          </ul>
+        </div>
+      </div>
+      <div class="div6">
+        <span>(+62) 863 0407 1872</span>
+      </div>
+      <div class="contact">
+        <button class="contact-button"><a href="https://wa.me/+6286304071872" target="_blank"
+            rel="noopener noreferrer"><img alt="conatct" src="./public/send.svg" /></a></button>
+      </div>
+    </div>
+  </div>
+
+  <script src="./index.js"></script>
+  <script src="./load.js"></script>
+</body>
+
+</html>
